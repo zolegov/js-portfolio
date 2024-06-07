@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/js-portfolio/assets/favicon-c79c9faf.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
     <link
       rel="stylesheet"
@@ -15,15 +21,67 @@
 
     
     <script type="module" crossorigin src="/js-portfolio/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/js-portfolio/assets/index-b9849178.css">
+    <link rel="stylesheet" href="/js-portfolio/assets/index-c965d203.css">
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+  <div class="container header-container">
+    <a href="index.html" class="header-logo"
+      >Lloyd<span class="green-text">Jefferson.</span></a
+    >
+    <button type="button" class="header-menu-btn">
+      <svg width="32" height="32" class="icon-color">
+        <use href="../img/icons.svg#mobil_menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
 
 
-    <section>
-      <h1>Example page title</h1>
-    </section>
+    <main>
+      <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">
+      Hello, I am <span class="green-text">Fullstack developer</span>
+    </h1>
+
+    <div class="hero-link">
+      <a href="#"
+        ><svg width="32" height="32" class="icon-color">
+          <use href="../img/icons.svg#arrow-hero"></use>
+        </svg>
+        Order the project</a
+      >
+      <span class="light-green-box"></span>
+    </div>
+    <p class="hero-text">
+      I work with people all over the world to create
+      <span class="green-text">impressive</span> and
+      <span class="green-text">functional websites</span> that reflect each
+      client’s unique personality.
+    </p>
+    <nav class="hero-nav">
+      <ul class="hero-nav-list">
+        <li class="hero-nav-list-item"><a href="">Instagram</a></li>
+        <li class="hero-nav-list-item"><a href="">Facebook</a></li>
+        <li class="hero-nav-list-item"><a href="">Linkedin</a></li>
+        <li class="hero-nav-list-item"><a href="">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container about-container">
+    <h2 class="about-title">About <span class="green-text">me</span></h2>
+    <img src="../img/about.png" alt="" />
+    <div class="bio">
+      <h2 class="bio-title">BIO</h2>
+    </div>
+  </div>
+</section>
+
+    </main>
 
     
   </body>
