@@ -22,4 +22,76 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #292929;
+  margin-bottom: 32px;
+}
+.bio-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+.bio-text:not(:last-child) {
+  margin-bottom: 24px;
+}
+.bio {
+  margin-bottom: 40px;
+}
+.education {
+  margin-bottom: 40px;
+}
+.education-title,
+.role-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 32px;
+}
+.education-list-item,
+.role-list-item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+.education-list-item {
+  position: relative;
+  padding-left: 32px;
+}
+.education-list-item::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #00b068;
+  border-radius: 1px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+}
+.role-list-item::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #00b068;
+  border-radius: 1px;
+  left: 4px;
+  position: absolute;
+  top: 10px;
+}
+.education-list-item:not(:last-child),
+.role-list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.role-list-item {
+  padding-left: 24px;
+  position: relative;
 }
