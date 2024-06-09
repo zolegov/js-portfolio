@@ -1,0 +1,109 @@
+.work-together {
+  margin-bottom: 80px;
+}
+.work-together-title {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23077;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 40px;
+}
+.contact-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 32px;
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.contact-list-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.work-tel {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+.work-email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 320px;
+  height: 48px;
+  background: #e4e5e6;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: rgba(41, 41, 41, 0.4);
+  outline: transparent;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.work-textarea {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 320px;
+  height: 128px;
+  background: #e4e5e6;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: rgba(41, 41, 41, 0.4);
+  outline: transparent;
+  border: none;
+}
+.work-together-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 320px;
+  height: 48px;
+  background: #00b068;
+  outline: transparent;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #f0f0f0;
+}

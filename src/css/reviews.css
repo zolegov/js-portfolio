@@ -1,0 +1,39 @@
+.reviews {
+  padding-bottom: 80px;
+}
+.reviews-title {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23077;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.reviews-list-item {
+  padding: 32px;
+}
+.reviews-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+  margin-bottom: 24px;
+}
+.reviews-photo-name {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.item-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
