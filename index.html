@@ -16,7 +16,9 @@
 
     
     <script type="module" crossorigin src="/js-portfolio/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/js-portfolio/assets/index-1a0ad94c.css">
+    <link rel="modulepreload" crossorigin href="/js-portfolio/assets/vendor-8f98089f.js">
+    <link rel="stylesheet" href="/js-portfolio/assets/vendor-8255b786.css">
+    <link rel="stylesheet" href="/js-portfolio/assets/index-c18bd923.css">
   </head>
   <body>
     <header class="header">
@@ -81,7 +83,7 @@
     <div class="bio">
       <h2 class="bio-title">BIO</h2>
       <p class="bio-text">
-        I'm Lloyd Jefferson, a talented programmer specializing  in software
+        I'm Lloyd Jefferson, a talented programmer specializing in software
         development. My expertise spans various programming languages and
         technologies, and I am dedicated to continually enhancing my skills. I
         thrive on seeking unconventional and creative solutions to problems,
@@ -95,7 +97,7 @@
         and stressful situations with a calm demeanor, maintaining a
         consistently high quality of work. Committed to self-improvement, I
         actively engage in studying new technologies and practices to stay
-        current with the  latest innovations in the field.
+        current with the latest innovations in the field.
       </p>
     </div>
     <div class="education">
@@ -124,28 +126,317 @@
   </div>
 </section>
 
-      <div class="marquee">
-  <div class="marquee__inner">
-    <ul class="marquee__line">
-      <li>HTML/CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <li>React Native</li>
-      <li>Typescript</li>
+      <section class="tech-skills">
+  <div class="marquee">
+    <div class="marquee__inner">
+      <ul class="marquee__line">
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>React Native</li>
+        <li>Typescript</li>
+      </ul>
+    </div>
+    <div class="marquee__inner marquee__inner2">
+      <ul class="marquee__line">
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>React Native</li>
+        <li>Typescript</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="my-project">
+  <div class="container">
+    <h2 class="my-project-title">
+      my <span class="green-text">projects</span>
+    </h2>
+    <ul class="my-project-list">
+      <li class="my-project-list-item">
+        <img src="../img/my-project1.png" alt="photo1" />
+        <div class="my-project-list-item-content">
+          <p class="my-project-item-text">React, JavaScript, Node JS, Git</p>
+          <h3 class="my-project-item-title">Wallet webservice</h3>
+          <button type="submit" class="my-project-item-btn">
+            VISIT
+            <svg width="18" height="18" class="my-project-item-btn-icon">
+              <use href="../img/icons.svg#arrow-right-up"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="my-project-list-item">
+        <img src="../img/my-project2.png" alt="photo1" />
+        <div class="my-project-list-item-content">
+          <p class="my-project-item-text">React, JavaScript, Node JS, Git</p>
+          <h3 class="my-project-item-title">Green harvest webservice</h3>
+          <button type="submit" class="my-project-item-btn">
+            VISIT
+            <svg width="18" height="18" class="my-project-item-btn-icon">
+              <use href="../img/icons.svg#arrow-right-up"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="my-project-list-item">
+        <img src="../img/my-project3.png" alt="photo1" />
+        <div class="my-project-list-item-content">
+          <p class="my-project-item-text">React, JavaScript, Node JS, Git</p>
+          <h3 class="my-project-item-title">English Exellence website</h3>
+          <button type="submit" class="my-project-item-btn">
+            VISIT
+            <svg width="18" height="18" class="my-project-item-btn-icon">
+              <use href="../img/icons.svg#arrow-right-up"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+    </ul>
+    <button type="submit" class="btn-load-more">LOAD MORE</button>
+  </div>
+</section>
+
+      <section class="benefits">
+  <div class="container">
+    <h2 class="benefits-title">
+      <span class="green-text">Benefits</span> of working with me
+    </h2>
+    <ul class="benefits-list">
+      <li class="benefits-list-item">
+        <svg width="48" height="48">
+          <use href="../img/icons.svg#expertise"></use>
+        </svg>
+        <h2 class="benefit-item-title">expertise</h2>
+        <p class="benefits-list-item-text">
+          With extensive experience in development, I have a deep understanding
+          of programming and website development.
+        </p>
+      </li>
+      <li class="benefits-list-item">
+        <svg width="48" height="48">
+          <use href="../img/icons.svg#communication"></use>
+        </svg>
+        <h2 class="benefit-item-title">Communication</h2>
+        <p class="benefits-list-item-text">
+          Understanding your needs and wants is my priority and I am always
+          available for discussions and open to corrections.
+        </p>
+      </li>
+      <li class="benefits-list-item">
+        <svg width="48" height="48">
+          <use href="../img/icons.svg#art"></use>
+        </svg>
+        <h2 class="benefit-item-title">art</h2>
+        <p class="benefits-list-item-text">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefits-list-item">
+        <svg width="48" height="48">
+          <use href="../img/icons.svg#urgent"></use>
+        </svg>
+        <h2 class="benefit-item-title">Urgent execution</h2>
+        <p class="benefits-list-item-text">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
     </ul>
   </div>
-  <div class="marquee__inner marquee__inner2">
-    <ul class="marquee__line">
-      <li>HTML/CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <li>React Native</li>
-      <li>Typescript</li>
+</section>
+
+      <section class="faq">
+  <div class="container">
+    <h2 class="faq-title">
+      frequently asked <span class="green-text">question</span>
+    </h2>
+    <ul class="accordion-container">
+      <li class="ac accordion-item">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What programming languages ​​are most often used in your project?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac accordion-item">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What are the deadlines for the project?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac accordion-item">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What payment methods do you accept?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="ac accordion-item">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            How can I contact you?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac accordion-item">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            Do you provide advice or support?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac accordion-item">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
     </ul>
   </div>
-</div>
+</section>
+
+      <section class="reviews">
+  <div class="container">
+    <h2 class="reviews-title">reviews</h2>
+    <ul class="reviews-list">
+      <li class="reviews-list-item">
+        <p class="reviews-item-text">
+          Work with was extraordinary! He turned out to be a very competent and
+          responsible specialist. The projects were completed on time and the
+          result exceeded my expectations
+        </p>
+        <div class="reviews-photo-name">
+          <img src="../img/reviewsphoto.png" alt="" class="item-photo" />
+          <span class="item-name">Natalia Shevchenko</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="work-together">
+  <div class="container">
+    <h2 class="work-together-title">
+      let’s <span class="green-text">work together</span>
+    </h2>
+    <div class="work-together-contact">
+      <h3 class="contact-title">
+        Contact me to transform your ideas into exceptional solutions.
+      </h3>
+      <ul class="contact-list">
+        <li class="contact-list-item">
+          <svg width="22" height="22">
+            <use href="../img/icons.svg#tel"></use>
+          </svg>
+          <a href="tel:+380504343036" class="work-tel"> +38 050 43 43 036</a>
+        </li>
+        <li class="contact-list-item">
+          <svg width="22" height="16">
+            <use href="../img/icons.svg#mail"></use>
+          </svg>
+          <a href="mailto:lloydjefferson@gmail.com" class="work-tel"
+            >lloydjefferson@gmail.com</a
+          >
+        </li>
+        <li class="contact-list-item">
+          <svg width="22" height="24">
+            <use href="../img/icons.svg#geo"></use>
+          </svg>
+          <a href="#" class="work-tel">USA, New York</a>
+        </li>
+      </ul>
+      <form action="" class="form">
+        <input
+          type="email"
+          name="email"
+          id="work-email"
+          class="work-email"
+          placeholder="Your email*"
+        />
+        <textarea
+          class="work-textarea"
+          name="work-textarea"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button type="submit" class="work-together-btn">SEND MESSAGE</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <section class="footer">
+  <div class="container">
+    <a href="index.html" class="footer-logo"
+      >Lloyd<span class="green-text">Jefferson.</span></a
+    >
+    <ul class="footer-list">
+      <li class="footer-list-item"><a href="">Instagram</a></li>
+      <li class="footer-list-item"><a href="">Facebook</a></li>
+      <li class="footer-list-item"><a href="">Linkedin</a></li>
+      <li class="footer-list-item"><a href="">GitHub</a></li>
+    </ul>
+    <p class="copyright">© Copyright 2024.<br> Made by LloydJefferson</br></p>
+  </div>
+</section>
 
     </main>
 
